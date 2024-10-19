@@ -39,7 +39,7 @@ void BuildMaxHeapAndSort(int inputData[], int n) {// 최대 힙 만들고 정렬
         swap(&inputData[0], &inputData[i]);    
         resortHeap(inputData, i, 0);           
     for (int j = 0; j < i; j++) {
-            printf("%d ", inputData[j]);//작아지면서 출력
+            printf("%d ", inputData[j]); //작아지면서 출력
         }
         printf("\n");
     }
